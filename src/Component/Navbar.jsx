@@ -17,7 +17,7 @@ let Navbar = () => {
                     <ul className="navbar-nav">
                         <li className="nav-item mx-3"><NavLink className="nav-link" to="/AddnewEmployee">AddQuestion</NavLink></li>
                         <li className="nav-item mx-3"><NavLink className="nav-link" to="/DisplayAllE">View AllQuestion</NavLink></li>
-                        <li className="nav-item mx-3"><NavLink className="nav-link" to="/Search">Schedule Exam</NavLink></li>
+                        <li className="nav-item mx-3"><NavLink className="nav-link" to="/Search">Search</NavLink></li>
                         
                     </ul>
 
@@ -25,7 +25,7 @@ let Navbar = () => {
                 <Routes>
                     <Route path="/AddnewEmployee" element={<AddnewEmployee parentCallBack={(data) => handlerCallback(data)} />} ></Route>
                     <Route path="/DisplayAllE" element={<DisplayAllE Questionlist={list} />} ></Route>
-                     <Route path="/Search" element={<Search/>} ></Route>
+                     <Route path="/Search" element={<Search Emplist={list}/>} ></Route>
                     
                 </Routes>
             </BrowserRouter>
