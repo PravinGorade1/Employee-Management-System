@@ -15,8 +15,8 @@ let Navbar = () => {
             <BrowserRouter>
                 <nav className="navbar navbar-expand-lg bg-dark navbar-dark ">
                     <ul className="navbar-nav">
-                        <li className="nav-item mx-3"><NavLink className="nav-link" to="/AddnewEmployee">AddQuestion</NavLink></li>
-                        <li className="nav-item mx-3"><NavLink className="nav-link" to="/DisplayAllE">View AllQuestion</NavLink></li>
+                        <li className="nav-item mx-3"><NavLink className="nav-link" to="/AddnewEmployee">Add Employee</NavLink></li>
+                        <li className="nav-item mx-3"><NavLink className="nav-link" to="/DisplayAllE">View All Employee</NavLink></li>
                         <li className="nav-item mx-3"><NavLink className="nav-link" to="/Search">Search</NavLink></li>
                         
                     </ul>
